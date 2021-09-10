@@ -5,9 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit --watch"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.4.1",
     "core-js": "^3.8.3",
     "vue": "^3.0.4"
   },
